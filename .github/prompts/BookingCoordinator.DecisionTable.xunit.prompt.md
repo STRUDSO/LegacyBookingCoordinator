@@ -10,12 +10,16 @@ description: "Generate an xUnit test suite for BookingCoordinator.cs, validating
 - **Decision Table:** `QA AI Day/Decistion table from code/Step3.BookingCoordinator.Decistion.Table.md`
 - **Project:** Legacy monolithic flight booking system
 - **Testing Framework:** xUnit + SpecRec
-- **Test File:** `LegacyBookingCoordinator.Tests/BookingCoordinatorTests.cs`
+**Test File:** Create a new test file, e.g., `LegacyBookingCoordinator.Tests/BookingCoordinatorDecisionTableTests.cs` (do not edit the existing `BookingCoordinatorTests.cs`).
 
-## Instructions
 
 ### 1. **Test Objective**
-Create a comprehensive xUnit test suite that:
+Create a comprehensive xUnit test suite in a new test file that:
+- Covers all scenarios and branches described in the decision table
+- Validates outcomes, side effects, and state transitions in `BookingCoordinator.BookFlight`
+- Uses SpecRec patterns for test doubles, logging, and scenario isolation
+
+**Note:** Do not modify the existing `BookingCoordinatorTests.cs` file. All new decision table tests should be placed in a newly created test file.
 - Covers all scenarios and branches described in the decision table
 - Validates outcomes, side effects, and state transitions in `BookingCoordinator.BookFlight`
 - Uses SpecRec patterns for test doubles, logging, and scenario isolation
