@@ -1,0 +1,10 @@
+[file ".github/chatmodes/task-researcher.chatmode.md"]
+	url = https://github.com/github/awesome-copilot/blob/main/chatmodes/task-researcher.chatmode.md
+	sha = eedfbba93b1529a47328c930a2446db29be6a392
+	etag = 819dbee44b413d14fc22a0ea2e3854f135467072404e0a25790a831858c93f24
+	weak
+[file ".github/chatmodes/plan.chatmode.md"]
+	url = https://github.com/github/awesome-copilot/blob/main/chatmodes/plan.chatmode.md
+	sha = 32589ba72c2f094bce7ee3a6bddff93250d6c3a6
+	etag = 823d2d5ef460f564fa9026c5f30836a1f7ba220fa9698c1def6e39ae2537b008
+	weak
