@@ -13,3 +13,8 @@
 	sha = be4e3cf5be3b85f8af7b5ed298e17e2041bb9594
 	etag = 9c25e795d935e00568ebe48bddde657913d1e39003563e2c33e55ab47b0eccd1
 	weak
+[file ".github/chatmodes/4.1-Beast.chatmode.md"]
+	url = https://github.com/github/awesome-copilot/blob/main/chatmodes/4.1-Beast.chatmode.md
+	sha = 1b06842be0d89550d85132df53c4230a8dcd9d9a
+	etag = 2d9e836d8793359ab5176b65836754d0fe89640e150219f879eb92c6c68b7b26
+	weak
