@@ -1,0 +1,13 @@
+| Available Seats | Special Requests | Airline Code | Booking Counter | Failure Reason Exists | Final Price > 1000 | Passenger Count > 5 | Result/Action                                 |
+|-----------------|-----------------|--------------|-----------------|----------------------|--------------------|---------------------|-----------------------------------------------|
+| < passengerCount| Any             | Any          | Any             | Any                  | Any                | Any                 | Throw InvalidOperationException (not enough seats) |
+| >= passengerCount| None            | Any          | Any             | No                   | No                 | No                  | Status: CONFIRMED, Notify Partner (if AA & <5) |
+| >= passengerCount| None            | Any          | Any             | No                   | Yes                | No                  | Status: CONFIRMED_PREMIUM, Notify Partner      |
+| >= passengerCount| None            | Any          | Any             | No                   | No                 | Yes                 | Status: CONFIRMED_GROUP, Notify Partner        |
+| >= passengerCount| None            | Any          | Any             | Yes                  | Any                | Any                 | Status: CONFIRMED, Do NOT Notify Partner       |
+| >= passengerCount| Present         | BA           | Any             | No                   | Any                | Any                 | If "meal" in requests, Notify Special Requests |
+| >= passengerCount| Present         | AA           | Any             | No                   | Any                | Any                 | If "wheelchair" in requests, Notify Special Requests |
+| >= passengerCount| Present         | Any          | Any             | No                   | Any                | Any                 | If >2 requests, Notify Special Requests        |
+| >= passengerCount| Any             | Any          | Even            | No                   | Any                | Any                 | Use encryption for partner notification        |
+| >= passengerCount| Any             | Any          | Odd             | No                   | Any                | Any                 | Do not use encryption for partner notification |
+| >= passengerCount| Any             | Any          | Any             | Any                  | Any                | Any                 | Log booking activity and pricing calculation   |
