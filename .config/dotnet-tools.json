@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "dotnet-file": {
+      "version": "1.7.3",
+      "commands": [
+        "dotnet-file"
+      ],
+      "rollForward": false
+    }
+  }
+}
