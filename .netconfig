@@ -8,3 +8,8 @@
 	sha = 32589ba72c2f094bce7ee3a6bddff93250d6c3a6
 	etag = 823d2d5ef460f564fa9026c5f30836a1f7ba220fa9698c1def6e39ae2537b008
 	weak
+[file ".github/prompts/copilot-prompt.prompt.md"]
+	url = https://github.com/austenstone/.vscode/blob/main/prompts/copilot-prompt.prompt.md
+	sha = be4e3cf5be3b85f8af7b5ed298e17e2041bb9594
+	etag = 9c25e795d935e00568ebe48bddde657913d1e39003563e2c33e55ab47b0eccd1
+	weak
