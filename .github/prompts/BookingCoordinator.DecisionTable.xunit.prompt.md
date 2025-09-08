@@ -1,5 +1,5 @@
 ---
-mode: agent
+mode: beastmode
 description: "Generate an xUnit test suite for BookingCoordinator.cs, validating all logic against the decision table in Step3.BookingCoordinator.Decistion.Table.md."
 ---
 
